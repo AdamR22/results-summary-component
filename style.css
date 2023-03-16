@@ -437,7 +437,9 @@ div.result-card {
     grid-template-columns: 1fr 1fr;
     border-radius: 2rem;
     gap: 4rem;
-    background-color: hsla(221, 100%, 96%, 0.3);;
+    background-color: hsla(221, 100%, 96%, 0.3);
+    min-height: 80vh;
+    box-shadow: 1rem 1rem .3px hsla(224, 30%, 27%, 0.2);
 }
 
 div.results {
@@ -500,6 +502,8 @@ div.summary {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 2rem;
+    padding-bottom: 2rem;
 }
 
 div.summary > p {
