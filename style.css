@@ -590,3 +590,48 @@ button:focus, button:hover {
 button:focus {
     outline: none;
 }
+
+@media (max-width: 42rem) {
+    body {
+        position: relative;
+    }
+
+    header {
+        position: absolute;
+        z-index: -1;
+    }
+
+    main {
+        margin: 0;
+    }   
+
+    div.result-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.results {
+        border-radius: 0 0 5rem 5rem;
+    }
+
+    div#result-circle {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    div#result-circle span {
+        font-size: 7rem;
+    }
+
+    div#result-summary p {
+        margin-top: 0;
+    }
+
+    div.summary-tile, button, div.summary > p {
+        margin-left: 2rem;
+    }
+
+    button {
+        width: 90%;
+    }
+}
